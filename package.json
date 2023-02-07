@@ -1,0 +1,8 @@
+{
+  "name": "advanced-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:joelesteves/advanced-node.git",
+  "author": "joelesteves <joel.esteves@hotmail.com>",
+  "license": "MIT"
+}
