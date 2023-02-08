@@ -2,7 +2,16 @@
   "name": "advanced-node",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
   "repository": "git@github.com:joelesteves/advanced-node.git",
   "author": "joelesteves <joel.esteves@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "rimraf": "^4.1.2"
+  }
 }
