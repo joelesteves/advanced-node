@@ -2,16 +2,24 @@
   "name": "advanced-node",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "build": "rimraf dist && tsc"
-  },
   "repository": "git@github.com:joelesteves/advanced-node.git",
   "author": "joelesteves <joel.esteves@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node dist/main/api",
+    "build": "rimraf dist && tsc"
+  },
   "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/node": "^18.13.0",
     "typescript": "^4.9.5"
   },
   "dependencies": {
+    "@types/module-alias": "^2.0.1",
+    "module-alias": "^2.2.2",
     "rimraf": "^4.1.2"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
